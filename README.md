@@ -17,5 +17,6 @@ sdk install java 21.3.0.r17-grl
 ```
 You can compile the native executable by running the following command.
 ```bash
+# this should create an executable called 'list' under the 'target' folder
 mvn -DbuildArgs=--no-server clean verify
 ```

@@ -83,7 +83,7 @@
                 <configuration>
                     <imageName>${executable.name}</imageName>
                     <mainClass>${mainClass}</mainClass>
-                    <buildArgs>${buildArgs} --emit build-report -march=native -Ob --gc=epsilon</buildArgs>
+                    <buildArgs>--no-server --emit build-report -march=native -Ob --gc=epsilon</buildArgs>
                 </configuration>
                 <executions>
                     <execution>
